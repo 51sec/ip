@@ -1,7 +1,9 @@
-from http.server import BaseHTTPRequestHandler
-class handler(BaseHTTPRequestHandler):
-  def do_GET(self):
-    self.send_response(200)
-    self.end_headers()
-    self.wfile.write(self.headers.get('x-forwarded-for').encode())
-    return
+## importing socket module
+import socket
+## getting the hostname by socket.gethostname() method
+hostname = socket.gethostname()
+## getting the IP address using socket.gethostbyname() method
+ip_address = socket.gethostbyname(hostname)
+## printing the hostname and ip_address
+##print(f"Hostname: {hostname}")
+print(f"{ip_address}")
