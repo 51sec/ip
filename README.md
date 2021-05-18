@@ -4,7 +4,7 @@ The script in index.py file is a python script to show visitor's public ip addre
 
 It can be run as a serverless app from serverless app hosting provider, such as vercel, Netlify, Heroku. 
 
-Demo: https://ip.51sec.eu.org/api
+Demo: https://ip.51sec.org/api
 
 or you can run it from local:
 python3 index.py
