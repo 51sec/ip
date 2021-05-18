@@ -1,4 +1,4 @@
-# myip
+# ip
 
 The script in index.py file is a python script to show visitor's public ip address. The file index.py is under the api folder which is required to run at Vercel site. 
 
