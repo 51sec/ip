@@ -1,2 +1,2 @@
-web: python ip.py
-worker: python ip.py
+web: python index.py
+worker: python index.py
