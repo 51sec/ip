@@ -8,6 +8,6 @@ or you can run it from local:
 python3 index.py
 
 
-# Deploy to Vercel
+# Deploy to vercel
 
 Demo: https://ip.51sec.org/api
